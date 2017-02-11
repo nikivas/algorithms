@@ -1,0 +1,6 @@
+﻿  Source.cpp
+c:\users\nikita\desktop\мичник\алгоритмы\masm-test\trash\consoleapplication1\consoleapplication1\source.cpp(9): warning C4700: использована неинициализированная локальная переменная "c"
+c:\users\nikita\desktop\мичник\алгоритмы\masm-test\trash\consoleapplication1\consoleapplication1\source.cpp(9): warning C4700: использована неинициализированная локальная переменная "b"
+c:\users\nikita\desktop\мичник\алгоритмы\masm-test\trash\consoleapplication1\consoleapplication1\source.cpp(9): warning C4700: использована неинициализированная локальная переменная "a"
+  ConsoleApplication1.vcxproj -> C:\Users\Nikita\Desktop\Мичник\алгоритмы\masm-test\trash\ConsoleApplication1\Debug\ConsoleApplication1.exe
+  ConsoleApplication1.vcxproj -> C:\Users\Nikita\Desktop\Мичник\алгоритмы\masm-test\trash\ConsoleApplication1\Debug\ConsoleApplication1.pdb (Full PDB)

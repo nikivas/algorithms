@@ -1,0 +1,68 @@
+class HeapSort
+//    {
+//        //добавление элемента к пирамиде
+//        public static void heapify(int[] arr, int pos, int n)
+//        {
+//            int temp;
+//            while (2 * pos + 1 < n)
+//            {
+//                int t = 2 * pos + 1;
+//                if (2 * pos + 2 < n && arr[2 * pos + 2] >= arr[t])
+//                {
+//                    t = 2 * pos + 2;
+//                }
+//                if (arr[pos] < arr[t])
+//                {
+//                    temp = arr[pos];
+//                    arr[pos] = arr[t];
+//                    arr[t] = temp;
+//                    pos = t;
+//                }
+//                else break;
+//            }
+//        }
+//        public static void heap_make(int[] arr, int n)
+//        {
+//            //шаг 1: постройка пирамиды
+//            for (int i = n - 1; i >= 0; i--)
+//            {
+//                heapify(arr, i, n);
+//            }
+//        }
+           
+//        public static void heap_sort(int[] arr, int n)
+//        {
+//            //шаг 2: сортировка
+//            int temp;
+//            heap_make(arr, n);
+//            while(n>0)
+//            {
+//                temp = arr[0];
+//                arr[0] = arr[n-1];
+//                arr[n-1] = temp;
+//                n--;
+//                heapify(arr, 0, n);
+//            }
+//        }  
+//        static void Main()
+//        {
+//            const int nmax = 50001;
+//            int[] arr = new int[nmax + 1];
+//            Console.WriteLine("Введите количество элементов n: ");
+//            int n;
+//            n = int.Parse(Console.ReadLine());
+//            string str = Console.ReadLine();
+//            string[] mas = str.Split(' ');
+//            for (int i = 0; i < n; i++)
+//            {
+//                arr[i] = int.Parse(mas[i]);
+//            }
+//            heap_sort(arr, n);
+//            System.Console.WriteLine("\n Отсортированный массив:");
+//            for (int i = 0; i < n; i++)
+//            {
+//                Console.Write(arr[i]);
+//                Console.Write(' ');
+//            }
+//            Console.ReadLine();
+//        }
